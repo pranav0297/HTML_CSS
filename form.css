@@ -1,0 +1,106 @@
+form{
+    width:40%;
+    margin:0px auto; 
+    border-radius: 5px;
+  }
+  .form-group{
+     margin:  auto;
+    padding: 1rem;
+  }
+  form {
+    border: 1px solid lightgray;
+  }
+select{
+    background-color: #2cd3a7;
+    color: white;
+}
+
+h4{
+    margin:  auto;
+    padding: 1.5rem;
+    color: white;
+}
+
+.color{
+    background-color:lightgray;
+}
+
+.color1{
+    background-color: rgb(236, 233, 233);
+    margin:  auto;
+    padding: 1.5rem;
+}
+
+button{
+    position: relative;  
+    right: -400px;
+    color:white;
+    background-color:#2cd3a7;
+    padding: 10px 27px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+select{
+    margin-top:0.4rem;
+    border-radius: 5px;
+    width: 100%;
+    height: 2rem;
+}
+
+.desc{
+    margin-top:0.4rem;
+    border-radius: 5px;
+    width: 100%;
+    height: 5rem;
+}
+.vi{
+    margin-top:0.4rem;
+    border-radius: 5px;
+    width: 20%;
+    height: 2rem; 
+}
+.input{
+    margin-top:0.4rem;
+    border-radius: 5px;
+    width: 100%;
+    height: 2rem;
+}
+.space{
+      position: relative;  
+      right: -147px;
+      margin-right: 150px;
+}
+
+.a{
+    position: relative;  
+    right: -80%;
+    top: -10px;
+
+    vertical-align: middle;
+    font-size:20px;
+    text-decoration: none;
+    color:rgb(83, 149, 236);
+}
+.a1{
+    position: relative;  
+    right: -81%;
+    top: -10px;
+    font-size:20px;
+    text-decoration: none;
+    color:rgb(83, 149, 236);
+}
+
+h3{
+    position: relative;  
+    right: -10%;
+    bottom: -35px;
+    font-size:20px;
+    text-decoration: none;
+    color:rgb(83, 149, 236);
+}
+
+
+ 
+
+

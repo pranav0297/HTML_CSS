@@ -1,0 +1,89 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Servey Form</title>
+        <link rel="stylesheet" type="text/css" href="./form.css"/>
+    </head>
+  <body>
+    <header>
+      <div class ="hi">
+      <h3>To The New</h3>
+      </div>
+    <div>
+      <a href="#Home" class="a">Home</a>
+      <a href="#help" class="a1">Quick Help</a>
+    </div>
+     
+    </header>
+    <hr>
+    <form>
+        <div class="color">
+        <h4>Bug Report</h5>
+    </div>
+
+      <div class="form-group">
+        <label for="Title">Title</label>
+        <br>
+      <input type="text" class="input">
+      </div>
+
+<div class="form-group">
+      <label for="Description">Description</label><br>
+      <textarea  name="Description" class="desc"></textarea><br>
+      </div>
+      
+      <div class="form-group">
+     
+      <label for="Operating System">Operating System</label><br>
+    <select  name="role"  required>
+        <option disabled selected value>Windows XP</option>
+        <option value="Linux">Linux</option>
+        <option value="Mac">Mac</option>
+        </select><br>
+      </div>
+
+<div class="form-group">
+        <label for="Product">Product</label><br>
+        <select  name="role"  required>
+        <option disabled selected value>Formoid</option>
+        <option value="Android">Android</option>
+        <option value="Web application">Web application</option>
+        </select><br>
+      </div>
+
+<div class="form-group">
+        <label for="Version">Version</label><br>
+        <input type="text" class="vi">
+      <br>
+      </div>
+      
+      <div class="form-group ">
+        <label for="Lisence">Lisence</label><br> 
+        <input type="radio" name="user-recommend" value="Free"/>Free
+        <input type="radio" name="user-recommend" value="Business" class="space"/>Business
+        <br>
+        </div>
+
+      <div class="form-group">
+        <label for="Severity">Severity</label><br>
+        <select  name="role"  required>
+        <option disabled selected value>Critical</option>
+        <option value="Critical">Critical</option>
+        <option value="Mild">Mild</option>
+        <option value="Normal">Normal</option>
+
+        </select>
+            <br>
+      </div>
+      <div class="form-group">
+        <label for="Attachments">Attachments</label><br>
+        <input type="file" class="input">
+      </div>
+           <br>
+           <div class="color1">
+        <button type="submit" id="submit" >Submit</button>
+    </div>
+    </form>
+    
+  </body>
+</html>
